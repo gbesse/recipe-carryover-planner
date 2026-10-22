@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Ordonner des lots avec contamination et nettoyage dépendant de la transition', 'en': 'Order batches with transition-dependent contamination and cleaning', 'es': 'Ordenar lotes con contaminación y limpieza dependientes de la transición'}

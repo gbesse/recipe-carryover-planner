@@ -1,0 +1,40 @@
+{
+  "batches": [
+    {
+      "id": "metal",
+      "type": "M",
+      "max_carryover": 0
+    },
+    {
+      "id": "polymer",
+      "type": "P",
+      "max_carryover": 0.2
+    },
+    {
+      "id": "metal2",
+      "type": "M",
+      "max_carryover": 0
+    }
+  ],
+  "transitions": [
+    {
+      "from": "M",
+      "to": "M",
+      "carryover": 0,
+      "clean_cost": 0
+    },
+    {
+      "from": "M",
+      "to": "P",
+      "carryover": 0.1,
+      "clean_cost": 2
+    },
+    {
+      "from": "P",
+      "to": "M",
+      "carryover": 1,
+      "clean_cost": 9,
+      "after_clean": 0
+    }
+  ]
+}

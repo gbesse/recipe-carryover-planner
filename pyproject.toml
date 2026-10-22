@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recipe-carryover-planner"
+version = "0.1.0a1"
+description = "FR: Ordonner des lots avec contamination et nettoyage dépendant de la transition | EN: Order batches with transition-dependent contamination and cleaning | ES: Ordenar lotes con contaminación y limpieza dependientes de la transición"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+recipe-carryover-planner = "recipe_carryover_planner.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["recipe_carryover_planner*"]
